@@ -1,11 +1,25 @@
+# Python
 __pycache__/
-.ipynb_checkpoints/
-basetts_outputs_use_bert/
-basetts_outputs/
-multilingual_ckpts
-basetts_outputs_package/
-build/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+.venv
 *.egg-info/
 
-*.zip
+# Project specific
+/jieba.cache
 *.wav
+*.safetensors
+*.bin
+/temp/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
